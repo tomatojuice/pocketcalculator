@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="display1">　</string>
+	<string name="display2">0</string>
+	<string name="display3">""</string>
+	<string name="app_name">ポケット電卓・計算機</string>
+	<string name="about_title">ポケット電卓・計算機 (Ver2.1)</string>
+
+	<string name="includtaxes">税込</string>
+	<string name="withouttaxes">税抜</string>
+	<string name="c">C</string>
+	<string name="ce">CE</string>
+	<string name="ca">CA</string>
+	<string name="mplus">M+</string>
+	<string name="mminus">M-</string>
+	<string name="cm">CM</string>
+	<string name="rm">RM</string>
+	<string name="seven">7</string>
+	<string name="eight">8</string>
+	<string name="nine">9</string>
+	<string name="percent">%</string>
+	<string name="root">√</string>
+	<string name="four">4</string>
+	<string name="five">5</string>
+	<string name="six">6</string>
+	<string name="kakeru">X</string>
+	<string name="waru">÷</string>
+	<string name="one">1</string>
+	<string name="two">2</string>
+	<string name="three">3</string>
+	<string name="plus">+</string>
+	<string name="minus">-</string>
+	<string name="plusminus">+/-</string>
+	<string name="zero">0</string>
+	<string name="zerozero">00</string>
+	<string name="dot">.</string>
+	<string name="equal">=</string>
+
+	<string name="preftitle">各種設定</string>
+	<string name="presummary">税率を1～100%の間で設定できます</string>
+	<string name="about">About</string>
+	<string name="taxs">税率設定</string>
+	<string name="toastmessege">100以下で入力してください</string>
+	<string name="theme_title">テーマ選択</string>
+	<string name="theme_summary">テーマ色を選択できます</string>
+	<string name="errormessege">Error:Overflow</string>
+
+	<string-array name="theme_array">
+	    <item name="theme_indigo">インディゴ</item>
+	    <item name="theme_pink">ピンク</item>
+	    <item name="theme_teal">ティール</item>
+	    <item name="theme_orange">オレンジ</item>
+		<item name="theme_brown">ブラウン</item>
+		<item name="theme_green">グリーン</item>
+		<item name="theme_miku">初音ミク</item>
+	</string-array>
+
+	<string-array name="theme_pref">
+		<item name="indigo">0</item>
+		<item name="pink">1</item>
+		<item name="teal">2</item>
+		<item name="orange">3</item>
+		<item name="brown">4</item>
+		<item name="green">5</item>
+		<item name="miku">6</item>
+	</string-array>
+
+	<string name="about_calc">Ver2.1の機能紹介です！</string>
+
+	<string name="dis_c"> M以外をクリアー</string>
+	<string name="dis_ce"> 直前の表示と値をクリアー</string>
+	<string name="dis_ca"> オールクリア</string>
+	<string name="dis_mp"> メモリープラス</string>
+	<string name="dis_mm"> メモリーマイナス</string>
+	<string name="dis_cm"> メモリーをクリアー</string>
+	<string name="dis_rm"> メモリーを呼び出し</string>
+	<string name="dis_pm"> 正負の反転</string>
+	<string name="dis_mu"> 税込の値を表示</string>
+	<string name="dis_md"> 税抜きの値を表示</string>
+	<string name="dis_par"> 数値 x 「％」で ％ を表示</string>
+	<string name="dis_ather">
+1.その他、 四則演算、階乗等の計算が出来ます。\n
+2.税率の設定はメニューから行えます。\n
+3.テーマ色の変更が出来ます。\n
+4.Android Wearに暫定的に対応！\n
+	</string>
+	<string name="dis_web">web</string>
+	<string name="dis_author">Author：　Tomato Juice\n</string>
+	
+</resources>

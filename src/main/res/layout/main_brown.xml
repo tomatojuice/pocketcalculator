@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_brown"
+    android:orientation="vertical"
+    android:shrinkColumns="*">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize" />
+
+    <TableRow
+        android:id="@+id/tablelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView android:id="@+id/display1" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:text="@string/display1" android:textSize="25sp" />
+        <TextView android:id="@+id/display3" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:text="@string/display3" android:textSize="25sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:gravity="right"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/display2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display2"
+            android:layout_span = "5"
+            android:textSize="55sp"
+            android:gravity="bottom|right"
+            android:layout_gravity="bottom" />
+
+    </TableRow>
+
+    <!-- ここから計算ボタンのLayout -->
+    <TableRow
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/IncludeTaxes"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/includtaxes"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/WithoutTaxes"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/withouttaxes"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/C"
+            style="@style/button_brown_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/c"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/CE"
+            style="@style/button_brown_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ce"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/CA"
+            style="@style/button_brown_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ca"
+            android:textSize="22sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/MPlus"
+            style="@style/button_brown_memory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/mplus"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/MMinus"
+            style="@style/button_brown_memory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/mminus"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/CM"
+            style="@style/button_brown_memory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/cm"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/RM"
+            style="@style/button_brown_memory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/rm"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/plusminus"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/plusminus"
+            android:textSize="22sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/seven"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/seven"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/eight"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/eight"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/nine"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/nine"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Percent"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/percent"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/root"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/root"
+            android:textSize="22sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/four"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/four"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/five"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/five"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/six"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/six"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Kakeru"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/kakeru"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Waru"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/waru"
+            android:textSize="22sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/one"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/one"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/two"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/two"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/three"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/three"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Plus"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/plus"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/Minus"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/minus"
+            android:textSize="22sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/zero"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/zero"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/zerozero"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/zerozero"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/dot"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dot"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/equal"
+            style="@style/button_brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            android:text="@string/equal"
+            android:textSize="22sp" />
+
+    </TableRow>
+
+</TableLayout>

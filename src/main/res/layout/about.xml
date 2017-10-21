@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+			<android.support.v7.widget.Toolbar
+    	    android:id="@+id/toolbar"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:minHeight="?attr/actionBarSize" />
+	        	
+    <LinearLayout
+        android:id="@+id/admoblinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingBottom="8dp" >
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_title"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingBottom="8sp"
+        android:padding="1sp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:text="@string/about_calc"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="0dp" android:paddingBottom="8sp" android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/c" />
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2dp"
+                    android:text="@string/dis_c"
+                    android:textSize="13sp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_ce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/ce" />
+
+                <TextView android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_ce"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_ca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/ca" />
+
+                <TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_ca"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_mplus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/mplus" />
+
+                <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_mp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_mminus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/mminus" />
+
+                <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_mm"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_cm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/cm" />
+
+                <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_cm"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_rm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/rm" />
+
+                <TextView android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_rm"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_plusminus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/plusminus" />
+
+                <TextView
+                    android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_pm"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_includtaxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/includtaxes" />
+
+                <TextView android:id="@+id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_mu"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_withouttaxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/withouttaxes" />
+
+                <TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_md"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/percent" />
+
+                <TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="2dp" android:textSize="13sp" android:text="@string/dis_par"
+                    tools:ignore="DuplicateIds,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+			<LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="vertical" android:padding="1dp">
+				<TextView android:id="@+id/ather" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dis_ather" />
+				<TextView android:id="@+id/weblink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dis_web" />
+			</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+

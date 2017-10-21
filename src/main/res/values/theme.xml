@@ -1,0 +1,152 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Theme of Indigo -->
+	<style name="IndigoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:textColorPrimary">@color/indigo_900</item>
+		<item name="android:windowBackground">@color/indigo_50</item>
+		<!-- ボタンの配色 -->
+		<item name="colorButtonNormal">@color/indigo_500</item>
+		<item name="colorControlHighlight">@color/indigo_100</item>
+
+	 	<item name="toolbarStyle">@style/IndigoToolbar</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="IndigoToolbar" parent="Widget.AppCompat.Toolbar">
+	    <item name="android:background">@color/indigo_500</item>
+	    <item name="popupTheme">@style/PopupMenu_Indigo</item>
+ 	    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="PopupMenu_Indigo" parent="ThemeOverlay.AppCompat.Light">
+    	<item name="android:background">@color/indigo_500</item>
+    	<item name="android:textColor">@color/indigo_50</item>
+	</style>
+
+    <!-- Theme of Pink -->
+	<style name="PinkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:textColorPrimary">@color/pink_900</item>
+		<item name="android:windowBackground">@color/pink_50</item>
+		<item name="colorButtonNormal">@color/pink_500</item>
+		<item name="colorControlHighlight">@color/pink_100</item>
+		<item name="toolbarStyle">@style/PinkToolbar</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="PinkToolbar" parent="Widget.AppCompat.Toolbar">
+	    <item name="android:background">@color/pink_500</item>
+	    <item name="popupTheme">@style/PopupMenu_Pink</item>
+	    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="PopupMenu_Pink" parent="ThemeOverlay.AppCompat.Light">
+    	<item name="android:background">@color/pink_500</item>
+    	<item name="android:textColor">@color/pink_50</item>
+	</style>
+
+    <!-- Theme of Teal -->
+	<style name="TealTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:textColorPrimary">@color/teal_900</item>
+		<item name="android:windowBackground">@color/teal_50</item>
+		<item name="colorButtonNormal">@color/teal_500</item>
+		<item name="colorControlHighlight">@color/teal_100</item>
+		<item name="toolbarStyle">@style/TealToolbar</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="TealToolbar" parent="Widget.AppCompat.Toolbar">
+	    <item name="android:background">@color/teal_500</item>
+	    <item name="popupTheme">@style/PopupMenu_Teal</item>
+	    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="PopupMenu_Teal" parent="ThemeOverlay.AppCompat.Light">
+    	<item name="android:background">@color/teal_500</item>
+    	<item name="android:textColor">@color/teal_50</item>
+	</style>
+
+	<!-- Theme of Orange -->
+	<style name="OrangeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:textColorPrimary">@color/orange_900</item>
+		<item name="android:windowBackground">@color/orange_50</item>
+		<item name="colorButtonNormal">@color/orange_500</item>
+		<item name="colorControlHighlight">@color/orange_100</item>
+		<item name="toolbarStyle">@style/OrangeToolbar</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="OrangeToolbar" parent="Widget.AppCompat.Toolbar">
+	    <item name="android:background">@color/orange_500</item>
+	    <item name="popupTheme">@style/PopupMenu_Orange</item>
+	    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="PopupMenu_Orange" parent="ThemeOverlay.AppCompat.Light">
+    	<item name="android:background">@color/orange_500</item>
+    	<item name="android:textColor">@color/orange_50</item>
+	</style>
+
+	<!-- Theme of Brown -->
+	<style name="BrownTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:textColorPrimary">@color/brown_900</item>
+		<item name="android:windowBackground">@color/brown_50</item>
+		<item name="colorButtonNormal">@color/brown_500</item>
+		<item name="colorControlHighlight">@color/brown_100</item>
+		<item name="toolbarStyle">@style/BrownToolbar</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="BrownToolbar" parent="Widget.AppCompat.Toolbar">
+	    <item name="android:background">@color/brown_500</item>
+	    <item name="popupTheme">@style/PopupMenu_Brown</item>
+	    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="PopupMenu_Brown" parent="ThemeOverlay.AppCompat.Light">
+    	<item name="android:background">@color/brown_500</item>
+    	<item name="android:textColor">@color/brown_50</item>
+	</style>
+
+	<!-- Theme of Green -->
+	<style name="GreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:textColorPrimary">@color/green_900</item>
+		<item name="android:windowBackground">@color/green_50</item>
+		<item name="colorButtonNormal">@color/green_500</item>
+		<item name="colorControlHighlight">@color/green_100</item>
+		<item name="toolbarStyle">@style/GreenToolbar</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="GreenToolbar" parent="Widget.AppCompat.Toolbar">
+	    <item name="android:background">@color/green_500</item>
+	    <item name="popupTheme">@style/PopupMenu_Green</item>
+	    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="PopupMenu_Green" parent="ThemeOverlay.AppCompat.Light">
+    	<item name="android:background">@color/green_500</item>
+    	<item name="android:textColor">@color/green_50</item>
+	</style>
+
+	<!-- Theme of Miku -->
+	<style name="MikuTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:textColorPrimary">@color/miku_3</item>
+		<item name="android:windowBackground">@color/miku_1</item>
+		<item name="colorButtonNormal">@color/miku_6</item>
+		<item name="colorControlHighlight">@color/miku_1</item>
+		<item name="toolbarStyle">@style/MikuToolbar</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="MikuToolbar" parent="Widget.AppCompat.Toolbar">
+	    <item name="android:background">@color/grey_900</item>
+	    <item name="popupTheme">@style/PopupMenu_Miku</item>
+	    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="PopupMenu_Miku" parent="ThemeOverlay.AppCompat.Light">
+    	<item name="android:background">@color/grey_900</item>
+    	<item name="android:textColor">@color/miku_3</item>
+	</style>
+
+</resources>
