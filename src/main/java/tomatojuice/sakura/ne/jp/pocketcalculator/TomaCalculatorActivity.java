@@ -161,72 +161,37 @@ public class TomaCalculatorActivity extends AppCompatActivity implements OnClick
 		switch(sp){ // Theme毎のボタン、toolbarの色をセット
 		case 0:
 			for(int i=0; i<29; i++){
-				if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
 					toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.indigo_50));
-				}
-				else{
-					toolbar.setTitleTextColor(getResources().getColor(R.color.indigo_50));
-				}
 			} // for
 			break;
 		case 1:
 			for(int i=0; i<29; i++){
-				if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
-					toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.pink_50));
-				}
-				else{
-					toolbar.setTitleTextColor(getResources().getColor(R.color.pink_50));
-				}
+				toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.pink_50));
 			} // for
 			break;
 		case 2:
 			for(int i=0; i<29; i++){
-				if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
-					toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.teal_50));
-				}
-				else{
-					toolbar.setTitleTextColor(getResources().getColor(R.color.teal_50));
-				}
+				toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.teal_50));
 			} // for
 			break;
 		case 3:
 			for(int i=0; i<29; i++){
-				if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
-					toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.orange_50));
-				}
-				else{
-					toolbar.setTitleTextColor(getResources().getColor(R.color.orange_50));
-				}
+				toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.orange_50));
 			} // for
 			break;
 		case 4:
 			for(int i=0; i<29; i++){
-				if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
-					toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.brown_50));
-				}
-				else{
-					toolbar.setTitleTextColor(getResources().getColor(R.color.brown_50));
-				}
+				toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.brown_50));
 			} // for
 			break;
 		case 5:
 			for(int i=0; i<29; i++){
-				if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
-					toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.green_50));
-				}
-				else{
-					toolbar.setTitleTextColor(getResources().getColor(R.color.green_50));
-				}
+				toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.green_50));
 			} // for
 			break;
 		case 6:
 			for(int i=0; i<29; i++){
-				if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
-					toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.miku_3));
-				}
-				else{
-					toolbar.setTitleTextColor(getResources().getColor(R.color.miku_3));
-				}
+				toolbar.setTitleTextColor(ContextCompat.getColor(this,R.color.miku_3));
 			} // for
 			break;	
 		} // switch
